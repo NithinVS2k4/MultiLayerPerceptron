@@ -32,11 +32,12 @@ This repository contains an implementation of a MultiLayer Perceptron (MLP) usin
 1. **Prepare your dataset:**
 
      Place your dataset in the appropriate directory or modify the data loading section in the script to point to your dataset.
-  Configure the MLP:
+   
+2. **Configure the MLP:**
 
-2. **Open the mlp.py file**
-  Adjust the network architecture by modifying the layers parameter.
-  Set hyperparameters such as learning rate, number of epochs, and batch size.
+      Open the mlp.py file
+      Adjust the network architecture by modifying the layers parameter.
+      Set hyperparameters such as learning rate, number of epochs, and batch size.
 
 3. **Train the model:**
    ```
