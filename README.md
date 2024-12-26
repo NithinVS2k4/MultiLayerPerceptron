@@ -1,64 +1,28 @@
 # MultiLayer Perceptron
 
-This repository contains an implementation of a MultiLayer Perceptron (MLP) using Python and NumPy. An MLP is a class of feedforward artificial neural network that consists of at least three layers of nodes: an input layer, one or more hidden layers, and an output layer. MLPs are capable of modeling complex, non-linear relationships and are widely used for tasks such as classification, regression, and pattern recognition.
+This project is an implementation of a MultiLayer Perceptron (MLP) from scratch using Python and NumPy. It demonstrates fundamental concepts of neural networks, such as feedforward computation, backpropagation, and gradient descent.
 
-## Features
+## About
 
-- Implementation of a MultiLayer Perceptron from scratch using Python and NumPy.
-- Customizable architecture with adjustable numbers of hidden layers and neurons.
-- Training using backpropagation and gradient descent algorithms.
-- Activation functions include sigmoid, tanh, and ReLU.
-- Example usage on standard datasets.
+The purpose of this project is to:
+- Understand and implement the mathematical foundations of neural networks.
+- Gain hands-on experience in building machine learning models without relying on external libraries like TensorFlow or PyTorch.
+- Experiment with different activation functions and training techniques.
 
-## Installation
+## Highlights
 
-1. **Clone the repository:**
+- Custom-built MLP architecture.
+- Implements activation functions such as sigmoid, tanh, and ReLU.
+- Includes backpropagation and gradient descent algorithms.
 
-   ```
-   git clone https://github.com/NithinVS2k4/MultiLayerPerceptron.git
-   cd MultiLayerPerceptron
-  
-2. **Set up a virtual environment (optional but recommended):**
-   ```
-    python -m venv venv
-    source venv/bin/activate  # On Windows: venv\Scripts\activate
-  
-3. **Install the required dependencies:**
-   ```
-    pip install -r requirements.txt
-    Note: Ensure that you have Python 3.x installed on your system.
+## Motivation
 
-## Usage
-1. **Prepare your dataset:**
+This project was created as a learning exercise to deepen my understanding of the inner workings of neural networks and machine learning principles. It is not intended for production use.
 
-     Place your dataset in the appropriate directory or modify the data loading section in the script to point to your dataset.
-   
-2. **Configure the MLP:**
+## Notes
 
-      Open the mlp.py file
-   
-      Adjust the network architecture by modifying the layers parameter.
-   
-      Set hyperparameters such as learning rate, number of epochs, and batch size.
-
-4. **Train the model:**
-   ```
-   python train.py
-   ```
-      Monitor the training process through the console output.
-
-5. **Evaluate the model:**
-
-     After training, run the evaluation script to assess performance:
-
-       python evaluate.py
-    
-## Contributing
-  Contributions are welcome! If you have suggestions for improvements or new features, feel free to open an issue or submit a pull request.
+The repository is primarily for educational purposes and to document my progress. Feel free to explore the code, but keep in mind that it is not optimized for general usage.
 
 ## License
-  This project is licensed under the MIT License. See the LICENSE file for details.
 
-## Acknowledgments
-  Inspired by the foundational concepts of neural networks and multilayer perceptrons. 
-  Thanks to the open-source community for providing valuable resources and tools.
+This project is shared under an MIT License. See the [LICENSE](LICENSE) file for details.
