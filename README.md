@@ -14,6 +14,7 @@ The purpose of this project is to:
 - Custom-built MLP architecture.
 - Implements activation functions such as sigmoid, tanh, and ReLU.
 - Includes backpropagation and gradient descent algorithms.
+- Interactive UI for observing the model's perfomance real-time.
 
 ## Motivation
 
