@@ -31,7 +31,7 @@ This repository contains an implementation of a MultiLayer Perceptron (MLP) usin
 ## Usage
 1. **Prepare your dataset:**
 
-  Place your dataset in the appropriate directory or modify the data loading section in the script to point to your dataset.
+     Place your dataset in the appropriate directory or modify the data loading section in the script to point to your dataset.
   Configure the MLP:
 
 2. **Open the mlp.py file**
