@@ -36,19 +36,22 @@ This repository contains an implementation of a MultiLayer Perceptron (MLP) usin
 2. **Configure the MLP:**
 
       Open the mlp.py file
+   
       Adjust the network architecture by modifying the layers parameter.
+   
       Set hyperparameters such as learning rate, number of epochs, and batch size.
 
-3. **Train the model:**
+4. **Train the model:**
    ```
-    python train.py
-    Monitor the training process through the console output.
+       python train.py
+   ```
+      Monitor the training process through the console output.
 
-4. **Evaluate the model:**
+5. **Evaluate the model:**
 
-  After training, run the evaluation script to assess performance:
+     After training, run the evaluation script to assess performance:
 
-    python evaluate.py
+       python evaluate.py
     
 ## Contributing
   Contributions are welcome! If you have suggestions for improvements or new features, feel free to open an issue or submit a pull request.
