@@ -43,7 +43,7 @@ This repository contains an implementation of a MultiLayer Perceptron (MLP) usin
 
 4. **Train the model:**
    ```
-       python train.py
+   python train.py
    ```
       Monitor the training process through the console output.
 
